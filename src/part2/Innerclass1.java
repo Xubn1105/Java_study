@@ -1,3 +1,6 @@
+/**
+ * 匿名类
+ */
 package part2;
 
 public class Innerclass1 {
