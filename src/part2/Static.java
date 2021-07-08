@@ -7,9 +7,11 @@ public class Static {
     public static void main(String[] args){
         Personn m = new Personn("xiaoming", 12);
         Personn n = new Personn("lihong", 15);
-        m.number = 88;
+        //m.number = 88;
+        Personn.number = 100;
         System.out.println(n.number);
-        n.number = 99;
+        //n.number = 99;
+        Personn.number = 200;
         System.out.println(m.number);
     }
 }
