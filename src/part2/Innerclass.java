@@ -1,3 +1,6 @@
+/**
+ * 直接在类内部新建一个class类，注意在调用时要加上外部类
+ */
 package part2;
 
 public class Innerclass{
