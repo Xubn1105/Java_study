@@ -1,0 +1,19 @@
+package part2;
+
+public class Staticmethod {
+    public static void main(String[] args){
+        //类可以直接调用方法
+        Person.setNumber(12);
+
+        //类调用变量
+        System.out.println(Person.number);
+    }
+}
+
+class Person{
+    public static int number;
+
+    public static void setNumber(int value){
+        number = value;
+    }
+}
