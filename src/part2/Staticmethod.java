@@ -14,6 +14,7 @@ class Person{
     public static int number;
 
     public static void setNumber(int value){
+        //静态方法内部无法访问this变量，this.number = number是错误的
         number = value;
     }
 }
