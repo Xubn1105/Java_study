@@ -1,4 +1,4 @@
-/**static class
+/**static value
  *
  */
 package part2;
