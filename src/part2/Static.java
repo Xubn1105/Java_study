@@ -20,6 +20,7 @@ class Personn{
     private String name;
     private int age;
 
+    //定义的静态变量可以被类的所有实例所访问 一般用（类名.变量名）表示
     public static int number;
 
     public Personn(String name, int age){
