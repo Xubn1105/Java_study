@@ -1,3 +1,7 @@
+/**
+ * 静态内部类，可以访问外部类的private的静态字段和静态方法
+ */
+
 package part2;
 
 public class Innerclass2 {
