@@ -5,3 +5,8 @@ Step2:jar --create --file hello.jar --main-class com.itranswarp.sample.Main -C b
 Step3:jmod create --class-path hello.jar hello.jmod  //将.jar 文件转换成.jmod文件
 
 Step4:java --module-path hello.jar --module hello.world  //运行jar包
+
+选择打包好的模块中想要运行部分模块的方式
+Step1:jlink --module-path hello.jmod --add-module java.base,java.xml,hello.world --output jre/
+
+Step2:jre/bin/java --module hello.world
